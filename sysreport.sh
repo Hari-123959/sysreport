@@ -1,4 +1,19 @@
 #!/bin/bash
+# =============================================================
+# Script: sysreport.sh
+# Description: Generates a system information report including
+#              hardware details, network configuration, and
+#              current system status. Designed to provide a
+#              quick overview without running multiple commands.
+# Author: Harikrishnan PB
+# =============================================================
+
+# lshw: lists hardware details; -class filters by category
+# ip r: shows routing table; used to find default gateway
+# ss -tuln: shows listening TCP/UDP ports without resolving names
+# free -h: shows RAM in human-readable format
+# /proc/loadavg: kernel file containing live load average values
+# ufw: uncomplicated firewall; status shows if it's active
 
 # --- System Identity ---
 HOSTNAME=$(hostname)
