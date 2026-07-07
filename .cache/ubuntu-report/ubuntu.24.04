@@ -1,0 +1,70 @@
+{
+  "Version": "24.04",
+  "OEM": {
+    "Vendor": "VMware, Inc.",
+    "Product": "VMware Virtual Platform",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "Phoenix Technologies LTD",
+    "Version": "6.00"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 4,
+  "Disks": [
+    21.5
+  ],
+  "Partitions": [
+    20.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1718x878",
+      "Frequency": "59.90"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Toronto",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 24.04.4 LTS",
+    "Stages": {
+      "2": "locale",
+      "8": "accessibility",
+      "14": "keyboard",
+      "16": "network",
+      "24": "refresh",
+      "26": "tryOrInstall",
+      "34": "autoinstall",
+      "45": "sourceSelection",
+      "54": "codecsAndDrivers",
+      "76": "storage",
+      "86": "identity",
+      "118": "timezone",
+      "153": "confirm",
+      "158": "install",
+      "1708": "done"
+    },
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": false,
+    "PartitionMethod": "use_device",
+    "UseActiveDirectory": false
+  }
+}
